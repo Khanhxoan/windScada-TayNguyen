@@ -1,0 +1,12 @@
+.kpi {
+    color: white;
+    .kpi-div {
+        display: flex;
+    }
+    .kpi-value {
+        text-align: right;
+    }
+    .kpi-row {
+        border-bottom: 1px solid gray;
+    }
+}

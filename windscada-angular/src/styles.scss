@@ -1,0 +1,28 @@
+:root {
+  --top-height: calc((99.5vh - 140px) * 3 / 5);
+  --bottom-height: calc((99.5vh - 140px) * 2 / 5);
+}
+
+#top-left,
+#top-right {
+  height: var(--top-height);
+
+  .component-wrapper {
+    height: calc(100% - 15px);
+  }
+}
+
+#bottom-left,
+#bottom-right {
+  height: var(--bottom-height);
+
+  .component-wrapper {
+    height: 100%;
+  }
+}
+
+body {
+  background-color: black !important;
+  max-width: 100%;
+  overflow-x: hidden;
+}
